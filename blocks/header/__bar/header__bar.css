@@ -1,0 +1,9 @@
+.header__bar {
+    align-self: center;
+    margin-left: 30px;
+}
+@media screen and (max-width: 620px) {
+    .header__bar {
+        margin-left: 0px;
+    }
+}

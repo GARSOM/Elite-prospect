@@ -1,0 +1,15 @@
+.footer__column-link {
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(196, 196, 196);
+  line-height: 10px;
+}
+
+@media screen and (max-width: 620px) {
+  .footer__column-link {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,15 @@
+.container__content {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 620px) {
+    .container__content {
+        font-size: 12px;
+    }
+}

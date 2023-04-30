@@ -1,0 +1,18 @@
+.footer__button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: inherit;
+    cursor: pointer;
+    color: yellow;
+}
+.footer__button:hover{
+    opacity: .5;
+}
+@media screen and (max-width: 620px) {
+    .footer__button {
+        font-size: 18px;
+        border: 1px solid white;
+    }
+}

@@ -1,0 +1,14 @@
+.cards__discription {
+    visibility: hidden;
+    text-align: center;
+    line-height: 23px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 880px) {
+    .cards__discription {
+        line-height: 16px;
+        font-size: 12px;
+    }
+}

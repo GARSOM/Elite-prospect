@@ -1,0 +1,18 @@
+.header__bar-logo {
+    cursor: pointer;
+    background-image: url(../../../images/icons8-день-и-ночь-50\ \(1\).png);
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    align-self: center;
+    margin-left: 18px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 840px) {
+    .header__bar-logo {
+        visibility: hidden;
+    }
+}

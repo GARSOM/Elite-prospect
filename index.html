@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <link rel="stylesheet" href="./pages/index.css">
+    <script src="./scripts/index.js" defer></script>
+    <title>УК Элит Проспект</title>
+</head>
+
+<body class="page">
+    <header class="header">
+        <div class="header__title-block">
+            <h1 class="header__title">Элит Проспект</h1>
+            <h2 class="header__subtitle">Управляющая компания</h2>
+        </div>
+        <!-- <img class="header__logo" src="./logo/Rastra.png"> -->
+        <nav class="header__bar">
+            <a class="header__bar_link" href="#about-us">О нас</a>
+            <a class="header__bar_link" href="#services">Услуги</a>
+            <a class="header__bar_link" href="#gis-zkh">ГИС ЖКХ</a>
+            <a class="header__bar_link" href="#document">Документы</a>
+            <a class="header__bar_link" id="openForm" type="button" href="#info">Связаться</a>
+            <a class="header__bar_link" href="#contact">Контакты</a>
+            <button class="header__bar-logo" href="#contact">
+        </nav>
+    </header>
+    <section class="zk">
+        <div class="slider">
+            <div class="item">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <div class="item_col">
+                    <h2>Наши объекты</h2>
+                    <h3>ЖК "Новая Александрия"</h3>
+                    <!-- <button class="btn"></button> -->
+                </div>
+                <img src="images/ЖК Александрия Фото 1.jpg" alt="">
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+
+            <div class="item">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <div class="item_col">
+                    <h2>Наши объекты</h2>
+                    <h3>ЖК "Новая Александрия"</h3>
+                    <!-- <button class="btn"></button> -->
+                </div>
+                <img src="images/ЖК Александрия Фото 2.jpg" alt="">
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+            <div class="item">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <div class="item_col">
+                    <h2>Наши объекты</h2>
+                    <h3>ЖК "Новая Александрия"</h3>
+                    <!-- <button class="btn"></button> -->
+                </div>
+                <img src="images/ЖК Александрия Фото 3.jpg" alt="">
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+            <div class="arrow_mobile">
+                <a class="previous_mobile" onclick="previousSlide()">&#10094;</a>
+                <a class="next_mobile" onclick="nextSlide()">&#10095;</a>
+            </div>
+
+        </div>
+    </section>
+    <section class="container">
+        <a name="about-us"></a>
+        <button class="container__button">О компании</button>
+        <div class="container__content">Мы рады приветствовать вас на сайте управляющей компании «Элит
+            проспект».<span>
+                Целью управляющей компании «Элит проспект» является создание комфортных условий собственникам и их
+                гостям вверенных нам объектов
+                недвижимости!</span> Мы внедряем и поддерживаем оптимальне условия взаимодействия между
+            собственником и
+            управляющей
+            компанией.<span>Обеспечивая содержание общего имущества, инженерных систем и оборудования в надлежащем
+                состоянии</span>
+            — Мы хотим что бы ваше прибывание было комфортным и безопасным.</span></div>
+    </section>
+
+    <section class="container">
+        <a name="services"></a>
+        <h2 class="title">Услуги</h2>
+        <ul class="cards">
+            <li class="cards__element">
+                <img class="cards__img" src="images/охрана.png">
+                <button type="button" class="cards__title">Охрана</button>
+                <p class="cards__discription">Многоуровневая охрана жилого дома. Круглосуточная система
+                    видеонаблюдения!</p>
+            </li>
+            <li class="cards__element">
+                <img class="cards__img" src="images/уборка.png">
+                <button type="button" class="cards__title">Уборка</button>
+                <p class="cards__discription">Уборка придомовой территории, лестничных пролетов, мест общего
+                    пользования.</p>
+            </li>
+            <li class="cards__element">
+                <img class="cards__img" src="images/Ремонт.png">
+                <button type="button" class="cards__title">Ремонт</button>
+                <p class="cards__discription">Текущий ремонт, устранение неисправностей оборудования, конструкций,
+                    инженерных систем, технических устройств.</p>
+            </li>
+            <li class="cards__element">
+                <img class="cards__img" src="images/Техническое обслуживание.png">
+                <button type="button" class="cards__title">Тех. обслуживание</button>
+                <p class="cards__discription">Поддержание в исправном техническом состоянии элементов и инженерных
+                    систем, заданных параметров и режимов работы конструкций, оборудования, технических устройств.
+                </p>
+            </li>
+        </ul>
+    </section>
+    </main>
+    <footer class="footer">
+        <a name="contact"></a>
+        <div class="footer__columns">
+             <!-- <iframe class="footer__map" src="https://yandex.ru/maps/-/CCUgATgxhD" frameborder="0"></iframe>  -->
+            <div class="footer__column">
+                <h4 class="footer__column-heading">График работы:
+                    Пн-Пт: 9.00 - 17.00
+                </h4>
+                <p class="footer__column-link">Перерыв 13:00 - 14:00</p>
+                <nav>
+                    <ul class="footer__column-links">Телефоны для связи
+                        <li>
+                            <p class="footer__column-link">Аварийно-диспетчерская служба: +7 (862) 225-52-05</p>
+                        </li>
+
+                        <li>
+                            <p class="footer__column-link">Руководитель сервисной службы: +7 (862) 225-52-06</p>
+                        </li>
+                        <li>
+                            <p class="footer__column-link">Технический отдел: +7 (862) 225-52-54</p>
+                        </li>
+                        <button id="openFormPage" type="button" class="footer__button">Нажмите сюда чтобы связаться с
+                            нами</button>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+
+    </footer>
+    <div class="popup">
+        <div class="popup__container">
+            <button type="button" class="popup__close"></button>
+            <form name="formpopup" class="popup__form">
+                <h3 class="popup__text">Связаться с нами</h3>
+                <input id="input-name" type="text" name="input-name" placeholder="Имя" class="popup__input" />
+                <input id="input-mail" type="text" name="input-mail" placeholder="Mail" class="popup__input" />
+                <input id="input-theme" type="text" name="input-theme" placeholder="Тема" class="popup__input" />
+                <input id="input-message" type="text" name="input-message" placeholder="Сообщение"
+                    class="popup__input_message" />
+                <button type="submit" class="popup__submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

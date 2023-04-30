@@ -1,0 +1,21 @@
+.title {
+    color: inherit;
+    background-color: transparent;
+    font-size: 52px;
+    text-align: center;
+    font-weight: 500;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.title:hover {
+    opacity: .7;
+}
+
+@media screen and (max-width: 620px) {
+    .title {
+        margin: 0;
+        font-size: 24px;
+    }
+}

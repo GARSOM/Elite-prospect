@@ -1,0 +1,11 @@
+.header__title-block {
+    border-right: 1px solid white;
+    padding-right: 40px;
+}
+
+@media screen and (max-width: 620px) {
+    .header__title-block {
+        border-right: none;
+        padding-right: 0px;
+    }
+}
