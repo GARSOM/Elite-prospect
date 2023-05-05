@@ -1,7 +1,6 @@
 .header__title {
     font-size: 36px;
     margin-bottom: 12px;
-    color: white;
 }
 
 @media screen and (max-width: 840px) {

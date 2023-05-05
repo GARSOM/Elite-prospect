@@ -1,11 +1,11 @@
 .footer__button {
     margin: 0;
     padding: 0;
+    margin-top: 30px;
     border: none;
     background-color: transparent;
     color: inherit;
     cursor: pointer;
-    color: yellow;
 }
 .footer__button:hover{
     opacity: .5;

@@ -1,17 +1,13 @@
-.zk {}
+.zk {
+    background-color: black;
+}
 
 .slider {
-    margin: 100px;
+    margin: 40px;
     padding: 50px;
-    box-shadow: 4px 4px 5px 4px rgb(26, 25, 25);
     transition: 0.5s;
     background-color: rgb(0, 0, 0);
     border-radius: 5px;
-}
-
-.slider:hover {
-    box-shadow: 5px 6px 6px 4px rgb(26, 25, 25);
-    transition: 0.5s;
 }
 
 .item {
@@ -43,7 +39,7 @@
 .slider .item img {
     object-fit: cover;
     width: 50%;
-    height: 400px;
+    height: 600px;
 }
 
 .previous,

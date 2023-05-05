@@ -1,11 +1,10 @@
 .header {
-    margin: 0 auto;
+    justify-content: center;
     display: flex;
     padding-top: 35px;
     padding-bottom: 15px;
     border-bottom: 1px solid grey;
     align-content: center;
-    color: black;
 }
 
 @media screen and (max-width: 620px) {

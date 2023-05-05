@@ -1,8 +1,7 @@
 .cards__discription {
-    visibility: hidden;
     text-align: center;
-    line-height: 23px;
-    font-size: 16px;
+    line-height: 19px;
+    font-size: 14px;
     font-weight: normal;
 }
 

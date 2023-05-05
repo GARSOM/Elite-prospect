@@ -1,11 +1,13 @@
 .container__content {
-    padding-top: 15px;
     display: flex;
     flex-direction: column;
-    visibility: hidden;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
+    background-color: gainsboro;
+    color: black;
+    opacity: .95;
+    padding: 20px;
 }
 
 @media screen and (max-width: 620px) {

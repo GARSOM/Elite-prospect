@@ -45,3 +45,9 @@
 @import url(../blocks/page/_type/page_type_black.css);
 @import url(../blocks/header/__bar-logo/header__bar-logo.css);
 @import url(../blocks/footer/__button/footer__button.css);
+@import url(../blocks/containers/containers.css);
+@import url(../blocks/containers/__label/containers__label.css);
+@import url(../blocks/containers/__content/containers__content.css);
+@import url(../blocks/containers/__button/containers__button.css);
+@import url(../blocks/containers/__box/containers__box.css);
+@import url(../blocks/containers/__content/_type/containers__content_openned.css);

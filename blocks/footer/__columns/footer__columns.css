@@ -1,8 +1,9 @@
 .footer__columns {
     display: flex;
     width: 90%;
-    gap: 50px;
+    justify-content: space-evenly;
 }
+
 @media screen and (max-width: 520px) {
     .footer__columns {
         gap: 0;

@@ -1,9 +1,8 @@
 .footer {
     border-top: 1px solid white;
     display: flex;
-    background-color: black;
     justify-content: center;
-    padding: 80px 0 80px 0;
+    padding: 0px 0 80px 0;
 }
 
 @media screen and (max-width: 620px) {
