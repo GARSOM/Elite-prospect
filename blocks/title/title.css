@@ -1,13 +1,12 @@
 .title {
     color: inherit;
     background-color: transparent;
-    font-size: 52px;
+    font-size: 62px;
     text-align: center;
     font-weight: 500;
     border-bottom: 1px solid rgb(255, 255, 255);
     padding-bottom: 15px;
     cursor: pointer;
-    background-color: whitesmoke;
 }
 
 .title:hover {
