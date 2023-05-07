@@ -1,7 +1,7 @@
 .footer__columns {
     display: flex;
     width: 90%;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 @media screen and (max-width: 520px) {
