@@ -51,3 +51,7 @@
 @import url(../blocks/containers/__button/containers__button.css);
 @import url(../blocks/containers/__box/containers__box.css);
 @import url(../blocks/containers/__content/_type/containers__content_openned.css);
+@import url(../blocks/giz-zkh/gis-zkh.css);
+@import url(../blocks/giz-zkh/__element/gis-zkh__element.css);
+@import url(../blocks/giz-zkh/__elements/gis-zkh__elements.css);
+@import url(../blocks/giz-zkh/__photo/gis-zkh__photo.css);
