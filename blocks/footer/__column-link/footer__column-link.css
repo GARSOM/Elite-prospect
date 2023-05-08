@@ -1,7 +1,9 @@
 .footer__column-link {
   text-decoration: none;
   font-size: 22px;
+  font-weight: 500;
   line-height: 20px;
+  color: white;
 }
 
 @media screen and (max-width: 620px) {

@@ -72,10 +72,6 @@ page.addEventListener('mousedown', handleOverlayClick);
 
 openFormPage.addEventListener('click', openPopup)
 
-
-
-
-
 function boxHandler(e) {
 	e.preventDefault();
 	let currentBox = e.target.closest('.box');

@@ -1,10 +1,9 @@
 .title {
-    color: inherit;
     background-color: transparent;
-    font-size: 62px;
+    font-size: 52px;
     text-align: center;
     font-weight: 500;
-    border-bottom: 3px solid rgb(69, 59, 255);
+    border-bottom: 3px solid black;
     padding-bottom: 15px;
     cursor: pointer;
 }
