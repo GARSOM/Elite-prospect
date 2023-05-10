@@ -1,12 +1,10 @@
 .footer__columns {
     display: flex;
-    width: 90%;
-    justify-content: space-around;
+    width: 100%;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 840px) {
     .footer__columns {
-        gap: 0;
         flex-direction: column;
         justify-content: center;
     }

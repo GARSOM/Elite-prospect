@@ -1,10 +1,10 @@
 .footer__map {
-    width: 50%;
+    width: 60%;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 840px) {
     .footer__map {
-        align-self: center;
-        max-width: 80%;
+        width: 100%;
+        padding-bottom: 30px;
     }
 }

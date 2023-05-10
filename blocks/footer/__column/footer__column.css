@@ -1,6 +1,4 @@
-.footer__column{
-    width: 600px;
+.footer__column {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
 }

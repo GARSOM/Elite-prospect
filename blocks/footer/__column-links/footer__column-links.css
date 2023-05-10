@@ -1,8 +1,10 @@
 .footer__column-links {
-    margin: 0;
-    padding: 0;
-    line-height: 30px;
-    font-size: 32px;
-    font-weight: 400;
     list-style-type: none;
+}
+
+@media screen and (max-width: 840px) {
+    .footer__column-links {
+        margin: auto;
+        padding-bottom: 30px;
+    }
 }

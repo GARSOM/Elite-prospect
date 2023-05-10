@@ -9,9 +9,13 @@
     opacity: .95;
     padding: 20px;
 }
-
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 1024px) {
     .container__content {
         font-size: 12px;
+    }
+}
+@media screen and (max-width: 620px) {
+    .container__content {
+        font-size: 8px;
     }
 }
