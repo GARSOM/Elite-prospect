@@ -128,5 +128,6 @@
         cursor: pointer;
         transition: 0.5s;
         color: white;
+        font-size: 30px;
     }
 }
