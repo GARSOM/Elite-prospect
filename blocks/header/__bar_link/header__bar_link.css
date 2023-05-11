@@ -22,22 +22,19 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .header__bar_link {
-        font-size: 12px;
-    }
-}
 @media screen and (max-width: 840px) {
     .header__bar_link {
-        font-size: 13px; 
+        font-size: 13px;
         margin-right: 5px;
     }
 }
+
 @media screen and (max-width: 620px) {
     .header__bar_link {
         display: flex;
         margin: 0;
-        font-size: 18px;
+        font-size: 15px;
+        line-height: 12px;
         justify-content: center;
         margin-top: 10px;
     }

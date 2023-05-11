@@ -5,6 +5,21 @@
     margin-top: 50px;
 }
 
+@media screen and (max-width: 620px) {
+    .container {
+        max-width: 380px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .container__about {
+        max-width: 380px;
+        margin: auto;
+    }
+}
+
 .container__about {
     display: flex;
     flex-direction: column;
