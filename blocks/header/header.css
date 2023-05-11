@@ -19,6 +19,7 @@
   cursor: pointer;
   border: none;
   visibility: hidden;
+  font-size: 35px;
 }
 
 @media screen and (max-width: 620px) {
