@@ -93,3 +93,9 @@
         font-size: 22px;
     }
 }
+
+@media screen and (max-width: 620px) {
+    .table__list {
+        font-size: 10px;
+    }
+}

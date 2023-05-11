@@ -5,6 +5,7 @@
 @media screen and (max-width: 840px) {
     .footer__column-links {
         margin: auto;
+        padding: 0;
         padding-bottom: 30px;
     }
 }

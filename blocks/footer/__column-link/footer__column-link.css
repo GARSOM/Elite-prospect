@@ -10,11 +10,3 @@
     font-size: 12px;
   }
 }
-
-
-@media screen and (max-width: 1024px) {
-  .footer__column-link {
-    font-size: 10px;
-    text-align: center;
-  }
-}

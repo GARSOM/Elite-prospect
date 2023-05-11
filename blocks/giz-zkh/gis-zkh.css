@@ -1,3 +1,82 @@
-.gis-zkh{
+.gis-zkh {
     max-width: 800px;
+}
+
+.adaptivny-slayder {
+    position: relative;
+    max-width: 780px;
+    margin: 50px auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+
+.adaptivny-slayder input[name="kadoves"] {
+    display: none;
+}
+
+.kadoves {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+}
+
+.kadoves label {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+    border-radius: 50%;
+    border: 5px solid #2f363c;
+    background-color: #738290;
+}
+
+#slaid1:checked~.kadoves label[for="slaid1"] {
+    background-color: white;
+}
+
+#slaid2:checked~.kadoves label[for="slaid2"] {
+    background-color: white;
+}
+
+#slaid3:checked~.kadoves label[for="slaid3"] {
+    background-color: white;
+}
+
+#slaid4:checked~.kadoves label[for="slaid4"] {
+    background-color: white;
+}
+
+.adaptivny-slayder-lasekun {
+    overflow: hidden;
+
+}
+
+.abusteku-deagulus {
+    display: flex;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.abusteku-deagulus img {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+#slaid1:checked~adaptivny-slayder-lasekun abusteku-deagulus {
+    transform: translate(0);
+}
+
+#slaid2:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translateX(-100%);
+}
+
+#slaid3:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translateX(-200%);
+}
+
+#slaid4:checked~.adaptivny-slayder-lasekun .abusteku-deagulus {
+    transform: translateX(-300%);
 }

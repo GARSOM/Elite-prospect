@@ -85,3 +85,10 @@ function boxHandler(e) {
 }
 const b = document.querySelector('.label')
 b.addEventListener('click', boxHandler);
+
+const burgerButton = document.querySelector('.hamburger-button');
+const BurgerBar = document.querySelector('.header__bar');
+function burgerOpenNav() {
+	BurgerBar.classList.toggle('header__bar_open')
+}
+burgerButton.addEventListener('click', burgerOpenNav)
