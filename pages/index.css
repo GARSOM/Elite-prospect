@@ -2,7 +2,6 @@
 @import url(../vendor/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__bar_link/header__bar_link.css);
 @import url(../blocks/header/__bar/header__bar.css);
 @import url(../blocks/header/__title-block/header__title-block.css);
@@ -26,12 +25,8 @@
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column/footer__column.css);
-@import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
-@import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__map/footer__map.css);
-@import url(../blocks/footer/__social-icon/footer__social-icon.css);
-@import url(../blocks/footer/logo_place_footer/logo_place_footer.css);
 @import url(../blocks/zk/zk.css);
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
@@ -55,3 +50,4 @@
 @import url(../blocks/giz-zkh/__element/gis-zkh__element.css);
 @import url(../blocks/giz-zkh/__elements/gis-zkh__elements.css);
 @import url(../blocks/giz-zkh/__photo/gis-zkh__photo.css);
+@import url(../blocks/documents/documents.css);

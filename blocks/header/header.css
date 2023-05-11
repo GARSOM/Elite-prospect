@@ -2,8 +2,9 @@
   justify-content: center;
   display: flex;
   padding-top: 35px;
-  padding-bottom: 15px;
   align-content: center;
+  border-bottom: 1px solid black;
+  margin-bottom: 25px;
 }
 
 @media screen and (max-width: 620px) {
@@ -20,6 +21,7 @@
   border: none;
   visibility: hidden;
   font-size: 35px;
+  color: black;
 }
 
 @media screen and (max-width: 620px) {

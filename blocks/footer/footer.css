@@ -2,13 +2,14 @@
     display: flex;
     margin: auto;
     width: 90%;
+    padding-top: 50px;
     padding-bottom: 50px;
+    border-top: 5px solid black;
 }
 
 @media screen and (max-width: 620px) {
     .footer {
         margin-top: 60px;
         padding: 0;
-        padding-bottom: 50px;
     }
 }

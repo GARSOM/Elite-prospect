@@ -25,49 +25,44 @@
             <a class="header__bar_link" href="#contact">Контакты</a>
         </nav>
     </header>
-    <!-- <nav>
-        <div class="navbar">
-            <div class="container nav-container">
-                <input class="checkbox" type="checkbox" name="" id="" />
-                <div class="hamburger-lines">
-                    <span class="line line1"></span>
-                    <span class="line line2"></span>
-                    <span class="line line3"></span>
-                </div>
-                <div class="logo">
-                    <h1>Элит Проспект</h1>
-                    <h2 class="header__subtitle">Управляющая компания</h2>
-                </div>
-                <div class="menu-items">
-                    <li><a class="header__bar_link" href="#about-us">О нас</a></li>
-                    <li><a class="header__bar_link" href="#services">Услуги</a></li>
-                    <li><a class="header__bar_link" href="#gis-zkh">ГИС ЖКХ</a></li>
-                    <li><a class="header__bar_link" href="#document">Документы</a></li>
-                    <li><a class="header__bar_link" id="openForm"  href="#info">Связаться</a></li>
-                    <li><a class="header__bar_link" href="#contact">Контакты</a></li>
-                </div>
+    <div class="slideshow">
+        <div class="slideshow-item">
+            <img class="fit" src="./images/1676519430_foni-club-p-oboi-sochi-na-kompyuter-10.jpg"
+                alt="Достопримечательности Сочи">
+            <div class="slideshow-item-text">
+                <h5>О компании</h5>
+                <p> Мы рады приветствовать вас на сайте управляющей компании «Элит
+                    проспект».</p>
             </div>
         </div>
-    </nav> -->
-
-
-    <section class="container__about">
-        <a name="about-us"></a>
-        <div class="container__content">
-            <button class="container__button">О компании</button>
-            Мы рады приветствовать вас на сайте управляющей компании «Элит
-            проспект».<span>
-                Целью управляющей компании «Элит проспект» является создание комфортных условий собственникам и их
-                гостям вверенных нам объектов
-                недвижимости! Мы внедряем и поддерживаем оптимальне условия взаимодействия между
-                собственником и
-                управляющей
-                компанией.<span>Обеспечивая содержание общего имущества, инженерных систем и оборудования в надлежащем
-                    состоянии
-                    — Мы хотим что бы ваше прибывание было комфортным и безопасным.</span>
+        <div class="slideshow-item">
+            <img class="fit" src="./images/2.jpg" alt="Достопримечательности Сочи">
+            <div class="slideshow-item-text">
+                <p> Целью управляющей компании «Элит проспект» является создание комфортных условий собственникам и их
+                    гостям вверенных нам объектов
+                    недвижимости!</p>
+            </div>
         </div>
-    </section>
-
+        <div class="slideshow-item">
+            <img class="fit" src="./images/1676519413_foni-club-p-oboi-sochi-na-kompyuter-1.jpg"
+                alt="Достопримечательности Сочи">
+            <div class="slideshow-item-text">
+                <p> Мы внедряем и поддерживаем оптимальне условия взаимодействия между
+                    собственником и
+                    управляющей
+                    компанией.</p>
+            </div>
+        </div>
+        <div class="slideshow-item">
+            <img class="fit" src="./images/4.jpg" alt="Достопримечательности Сочи">
+            <div class="slideshow-item-text">
+                <p>Обеспечивая содержание общего имущества, инженерных систем и оборудования в надлежащем
+                    состоянии
+                    — Мы хотим что бы ваше прибывание было комфортным и безопасным.</p>
+            </div>
+        </div>
+    </div>
+    <a name="about-us"></a>
     <section class="container">
         <a name="services"></a>
         <h2 class="title">Услуги</h2>
@@ -101,6 +96,7 @@
     </section>
     <section class="container">
         <a name="gis-zkh"></a>
+        <h2 class="title">Немного о ГИС ЖКХ</h2>
         <div class="adaptivny-slayder">
             <input type="radio" name="kadoves" id="slaid1" checked>
             <input type="radio" name="kadoves" id="slaid2">
@@ -122,20 +118,95 @@
                 </div>
             </div>
         </div>
-        <!-- <ul class="gis-zkh__elements">
-            <img class="gis-zkh__photo" src="./images/ЖКУ/Плюсы 0.png">
-        </ul>
-        <ul class="gis-zkh__elements">
-            <li class="gis-zkh__element">
-                <img class="gis-zkh__photo" src="./images/ЖКУ/Регистрация 1.png">
-            </li>
-            <li class="gis-zkh__element">
-                <img class="gis-zkh__photo" src="./images/ЖКУ/Оплата 2.png">
-            </li>
-            <li class="gis-zkh__element">
-                <img class="gis-zkh__photo" src="./images/ЖКУ/Оплачено 3.png">
-            </li>
-        </ul> -->
+    </section>
+    <section class="zk">
+        <div class="slider">
+            <div class="item">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <div class="item_col">
+                    <h2 class="title__slide">Наши объекты</h2>
+                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
+                    <!-- <button class="btn"></button> -->
+                </div>
+                <img src="images/ЖК Александрия Фото 2.jpg" alt="">
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+            <div class="item">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <div class="item_col">
+                    <h2 class="title__slide">Наши объекты</h2>
+                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
+                    <!-- <button class="btn"></button> -->
+                </div>
+                <img src="images/ЖК Александрия Фото 3.jpg" alt="">
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+            <div class="item">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <div class="item_col">
+                    <h2 class="title__slide">Наши объекты</h2>
+                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
+                    <!-- <button class="btn"></button> -->
+                </div>
+                <img src="images/ЖК Новая Александрия (2).jpg" alt="">
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+            <div class="item">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <div class="item_col">
+                    <h2 class="title__slide">Наши объекты</h2>
+                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
+                    <!-- <button class="btn"></button> -->
+                </div>
+                <img src="images/ЖК Новая Александрия (1).jpg" alt="">
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+            <div class="item">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <div class="item_col">
+                    <h2 class="title__slide">Наши объекты</h2>
+                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
+                    <!-- <button class="btn"></button> -->
+                </div>
+                <img src="images/ЖК Новая Александрия (3).jpg" alt="">
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+            <div class="item">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <div class="item_col">
+                    <h2 class="title__slide">Наши объекты</h2>
+                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
+                    <!-- <button class="btn"></button> -->
+                </div>
+                <img src="images/ЖК Новая Александрия (4).jpg" alt="">
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+            <div class="item">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <div class="item_col">
+                    <h2 class="title__slide">Наши объекты</h2>
+                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
+                    <!-- <button class="btn"></button> -->
+                </div>
+                <img src="images/ЖК Новая Александрия (5).jpg" alt="">
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+            <div class="item">
+                <a class="previous" onclick="previousSlide()">&#10094;</a>
+                <div class="item_col">
+                    <h2 class="title__slide">Наши объекты</h2>
+                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
+                    <!-- <button class="btn"></button> -->
+                </div>
+                <img src="images/ЖК Новая Александрия (7).jpg" alt="">
+                <a class="next" onclick="nextSlide()">&#10095;</a>
+            </div>
+            <div class="arrow_mobile">
+                <a class="previous_mobile" onclick="previousSlide()">&#10094;</a>
+                <a class="next_mobile" onclick="nextSlide()">&#10095;</a>
+            </div>
+
+        </div>
     </section>
     <section class="container">
         <a name="document"></a>
@@ -262,95 +333,6 @@
                     </ul>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="zk">
-        <div class="slider">
-            <div class="item">
-                <a class="previous" onclick="previousSlide()">&#10094;</a>
-                <div class="item_col">
-                    <h2 class="title__slide">Наши объекты</h2>
-                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
-                    <!-- <button class="btn"></button> -->
-                </div>
-                <img src="images/ЖК Александрия Фото 2.jpg" alt="">
-                <a class="next" onclick="nextSlide()">&#10095;</a>
-            </div>
-            <div class="item">
-                <a class="previous" onclick="previousSlide()">&#10094;</a>
-                <div class="item_col">
-                    <h2 class="title__slide">Наши объекты</h2>
-                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
-                    <!-- <button class="btn"></button> -->
-                </div>
-                <img src="images/ЖК Александрия Фото 3.jpg" alt="">
-                <a class="next" onclick="nextSlide()">&#10095;</a>
-            </div>
-            <div class="item">
-                <a class="previous" onclick="previousSlide()">&#10094;</a>
-                <div class="item_col">
-                    <h2 class="title__slide">Наши объекты</h2>
-                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
-                    <!-- <button class="btn"></button> -->
-                </div>
-                <img src="images/ЖК Новая Александрия (2).jpg" alt="">
-                <a class="next" onclick="nextSlide()">&#10095;</a>
-            </div>
-            <div class="item">
-                <a class="previous" onclick="previousSlide()">&#10094;</a>
-                <div class="item_col">
-                    <h2 class="title__slide">Наши объекты</h2>
-                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
-                    <!-- <button class="btn"></button> -->
-                </div>
-                <img src="images/ЖК Новая Александрия (1).jpg" alt="">
-                <a class="next" onclick="nextSlide()">&#10095;</a>
-            </div>
-            <div class="item">
-                <a class="previous" onclick="previousSlide()">&#10094;</a>
-                <div class="item_col">
-                    <h2 class="title__slide">Наши объекты</h2>
-                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
-                    <!-- <button class="btn"></button> -->
-                </div>
-                <img src="images/ЖК Новая Александрия (3).jpg" alt="">
-                <a class="next" onclick="nextSlide()">&#10095;</a>
-            </div>
-            <div class="item">
-                <a class="previous" onclick="previousSlide()">&#10094;</a>
-                <div class="item_col">
-                    <h2 class="title__slide">Наши объекты</h2>
-                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
-                    <!-- <button class="btn"></button> -->
-                </div>
-                <img src="images/ЖК Новая Александрия (4).jpg" alt="">
-                <a class="next" onclick="nextSlide()">&#10095;</a>
-            </div>
-            <div class="item">
-                <a class="previous" onclick="previousSlide()">&#10094;</a>
-                <div class="item_col">
-                    <h2 class="title__slide">Наши объекты</h2>
-                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
-                    <!-- <button class="btn"></button> -->
-                </div>
-                <img src="images/ЖК Новая Александрия (5).jpg" alt="">
-                <a class="next" onclick="nextSlide()">&#10095;</a>
-            </div>
-            <div class="item">
-                <a class="previous" onclick="previousSlide()">&#10094;</a>
-                <div class="item_col">
-                    <h2 class="title__slide">Наши объекты</h2>
-                    <h3 class="subtitle__slide">ЖК "Новая Александрия"</h3>
-                    <!-- <button class="btn"></button> -->
-                </div>
-                <img src="images/ЖК Новая Александрия (7).jpg" alt="">
-                <a class="next" onclick="nextSlide()">&#10095;</a>
-            </div>
-            <div class="arrow_mobile">
-                <a class="previous_mobile" onclick="previousSlide()">&#10094;</a>
-                <a class="next_mobile" onclick="nextSlide()">&#10095;</a>
-            </div>
-
         </div>
     </section>
     </main>
