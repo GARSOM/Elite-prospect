@@ -81,17 +81,18 @@
     position: absolute;
     bottom: 20px;
     left: 20px;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(167, 178, 188, 0.9);
     color: #fff;
     padding: 20px 30px;
     text-align: center;
     font-weight: 500;
+    color: black;
 }
 
 .slideshow-item-text h5 {
     font-size: 28px;
     margin: 0 0 10px 0;
-    color: #BFE2FF;
+    color: #000000;
 }
 
 .slideshow-item-text p {
