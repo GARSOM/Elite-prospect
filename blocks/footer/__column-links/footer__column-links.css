@@ -1,5 +1,6 @@
 .footer__column-links {
     list-style-type: none;
+    margin: 0;
 }
 
 @media screen and (max-width: 840px) {
