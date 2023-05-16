@@ -38,6 +38,7 @@
     overflow: hidden;
     background: #000;
     margin: auto;
+    border-radius: 10px;
 }
 
 .slideshow-item {

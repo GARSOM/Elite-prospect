@@ -1,5 +1,6 @@
 .footer__map {
     width: 60%;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 840px) {

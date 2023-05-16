@@ -7,6 +7,7 @@
     max-width: 780px;
     margin: 50px auto;
     box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
 }
 
 .adaptivny-slayder input[name="kadoves"] {
@@ -51,7 +52,7 @@
 
 .adaptivny-slayder-lasekun {
     overflow: hidden;
-
+    border-radius: 20px;
 }
 
 .abusteku-deagulus {
